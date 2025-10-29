@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(13, 0, 37);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.searchbar {
+    text-align: right;
+}
+
+.searchbar select, .searchbar input {
+    height: 20px;
+    margin: 2px;
+    color: black;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: large;
+}
+
+.navbar td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.banner {
+    background-image: url('backiee-232059-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    text-align: center;
+}
+
+.section-header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.services td {
+    padding: 40px 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.team td {
+    text-align: center;
+    padding: 20px;
+}
+
+.circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: auto;
+}
+
+td form input, td form textarea {
+    width: 90%;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+td a {
+    color: cyan;
+}
+
+.contactus{
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(8, 0, 25);
+}
+html {
+  scroll-behavior: smooth;
+}
+
